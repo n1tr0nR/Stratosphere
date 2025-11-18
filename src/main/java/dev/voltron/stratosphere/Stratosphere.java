@@ -1,6 +1,6 @@
 package dev.voltron.stratosphere;
 
-import dev.voltron.stratosphere.init.ModBlocks;
+import dev.voltron.stratosphere.content.item.ModItems;
 import dev.voltron.stratosphere.init.ModEntities;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +14,6 @@ public class Stratosphere implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModEntities.init();
-		ModBlocks.init();
+		ModItems.registerModItems();
 	}
 }
