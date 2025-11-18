@@ -18,6 +18,9 @@
 		"main": [
 			"dev.voltron.stratosphere.Stratosphere"
 		],
+		"client": [
+			"dev.voltron.stratosphere.client.StratosphereClient"
+		],
 		"fabric-datagen": [
 			"dev.voltron.stratosphere.StratosphereDataGenerator"
 		]
