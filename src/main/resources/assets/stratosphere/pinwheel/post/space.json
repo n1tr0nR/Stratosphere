@@ -1,0 +1,38 @@
+{
+  "stages": [
+    {
+      "type": "veil:mask",
+      "depth": true
+    },
+    {
+      "type": "veil:blit",
+      "shader": "stratosphere:space",
+      "in": "minecraft:main",
+      "out": "stratosphere:space",
+      "clear": false
+    },
+    {
+      "type": "veil:copy",
+      "in": "stratosphere:space",
+      "out": "minecraft:main",
+      "clear": true,
+      "color": true,
+      "depth": true
+    },
+    {
+      "type": "veil:copy",
+      "in": "stratosphere:space",
+      "out": "veil:post",
+      "clear": true,
+      "depth": true
+    }
+  ],
+  "framebuffers": {
+    "swap": {
+      "depth": true,
+      "format": "RGBA16F",
+      "linear": true,
+      "autoClear": true
+    }
+  }
+}

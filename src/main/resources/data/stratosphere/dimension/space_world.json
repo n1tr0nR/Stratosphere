@@ -1,0 +1,18 @@
+{
+  "type": "stratosphere:space_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "stratosphere:empty",
+      "lakes": false,
+      "features": false,
+      "disable_mob_generation": true,
+      "layers": [
+        {
+          "height": 242,
+          "block": "minecraft:air"
+        }
+      ]
+    }
+  }
+}

@@ -21,8 +21,16 @@
 		"client": [
 			"dev.voltron.stratosphere.client.StratosphereClient"
 		],
+		"cardinal-components": [
+			"dev.voltron.stratosphere.init.ModComponents"
+		],
 		"fabric-datagen": [
 			"dev.voltron.stratosphere.StratosphereDataGenerator"
+		]
+	},
+	"custom": {
+		"cardinal-components": [
+			"stratosphere:ship"
 		]
 	},
 	"mixins": [

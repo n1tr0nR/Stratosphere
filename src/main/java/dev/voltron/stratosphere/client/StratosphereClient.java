@@ -8,6 +8,8 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 public class StratosphereClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+        ShaderManager.reg();
+
         EntityRendererRegistry.register(ModEntities.SHIP, ShipEntityRenderer::new);
     }
 }
